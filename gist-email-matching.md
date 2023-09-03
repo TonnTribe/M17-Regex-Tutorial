@@ -14,9 +14,7 @@ Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
+- [Author](#author)
 
 ## Regex Components
 
@@ -63,12 +61,8 @@ These are used to show what characters you want to include in your match. These 
 
 3rd a-z\. This includes any lowercase letter from a to z. The backslash is again showing we want to use the literal period (.).
 
-### The OR Operator
-
-### Flags
-
-### Character Escapes
-
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Devin Tonn. I go by Tonn Tribe in the gaming/coding world. I started a Full Stack Development program to look for a new career for myself. I have enjoyed learning how to code. You can find my profile below. 
+
+https://github.com/TonnTribe
