@@ -26,9 +26,16 @@ A regex is considered a literal, so the pattern must be wrapped in slash charact
 
 ### Anchors
 
-The starting anchor in this Regex is ^ this will always indicate the beginning of the string. The ending anchor for this Regex is $, this will always indicate the ending of the string.
+The starting anchor in this Regex is ^ this will always indicate the beginning of the string. The ending anchor for this Regex is $ this will always indicate the ending of the string.
 
 ### Quantifiers
+
+Quantifiers are what tell the expression how many characters it needs to search for to make a match. Some of the common quantifiers in this expression are:
+
++ operator, which will connect the users email name + email service + .com
+
+{2,6}, this will allow a match range of 2-6 characters for the character set of [a-z\.].
+
 
 ### Grouping Constructs
 
