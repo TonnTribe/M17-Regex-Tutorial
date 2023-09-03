@@ -55,6 +55,14 @@ Bracket expressions for this Regex include the character sets of [a-z0-9_\.-], w
 
 ### Character Classes
 
+These are used to show what characters you want to include in your match. These are always shown inside the brackets. This expression shows character sets three different times. 
+
+1st a-z0-9_\.- This shows that they want to include any lowercase letter from a to z and any digit from 0 to 9. The backslash shows that we want to use the literal symbol meaning we also want to include the underscore (\_), a period (.), and a dash (-).
+
+2nd \da-z\.- The \d represents any number from 0-9. The a-z means we want to include all lowercase letters a through z. The backslash shows we want to use the literal characters for period(.) and dash(-).
+
+3rd a-z\. This includes any lowercase letter from a to z. The backslash is again showing we want to use the literal period (.).
+
 ### The OR Operator
 
 ### Flags
