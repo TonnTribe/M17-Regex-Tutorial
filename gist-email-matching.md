@@ -21,9 +21,12 @@ Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 ## Regex Components
 
 A regex is considered a literal, so the pattern must be wrapped in slash characters (/). If we look at "Matching an Email Address" regex, you will notice that this is true:
+
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ### Anchors
+
+The starting anchor in this Regex is ^ this will always indicate the beginning of the string. The ending anchor for this Regex is $, this will always indicate the ending of the string.
 
 ### Quantifiers
 
