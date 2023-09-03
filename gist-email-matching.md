@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Gist Email Matching Tutorial
 
-Introductory paragraph (replace this with your text)
+Regular expressions or Regex(shorthand), is a sequence of characters that define a specific search pattern. This tutorial will highlight and breakdown the expression of matching email addresses. 
 
 ## Summary
 
