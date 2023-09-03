@@ -41,13 +41,17 @@ The + operator, which will connect the users email name + email service + .com.
 
 () are used in this expression to capture groupings of code and make them work together. Some of these were mentioned in the quantifiers.
 
-1st group ([a-z0-9_\.-]+).
-2nd group ([\da-z\.-]+).
-3rd group ([a-z\.]{2,6}).
+1st group ([a-z0-9_\.-]+)
+
+2nd group ([\da-z\.-]+)
+
+3rd group ([a-z\.]{2,6})
 
 This grouping system allows us to easily see the code and break it into the parts for the email.
 
 ### Bracket Expressions
+
+Bracket expressions for this Regex include the character sets of [a-z0-9_\.-], which is matching any letter a-z and is case sensitive. It also matches a character 0-9 and matches the characters "_", "-", and "." as seen in the 3 groups above.
 
 ### Character Classes
 
