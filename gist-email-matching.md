@@ -4,7 +4,8 @@ Regular expressions or Regex(shorthand), is a sequence of characters that define
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+We will be diving into the following Regex to better understand how this expression helps match email addresses. 
+Matching an Email – /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
